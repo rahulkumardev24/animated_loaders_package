@@ -1,13 +1,13 @@
 name: bouncy_dots_loader
 description: Beautiful, smooth and customizable dot-based loading animations for Flutter apps.
-version: 0.0.1
+version: 0.0.1+2
 homepage: https://github.com/rahulkumardev24/animated_loaders_package
 repository: https://github.com/rahulkumardev24/animated_loaders_package
 issue_tracker: https://github.com/rahulkumardev24/animated_loaders_package/issues
 
 environment:
-  sdk: ^3.9.2
-  flutter: ">=1.17.0"
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
 
 dependencies:
   flutter:

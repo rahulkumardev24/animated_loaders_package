@@ -39,12 +39,12 @@ Add this package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  animated_loaders: ^0.0.1
+  bouncy_dots_loader : ^0.0.1
 ```
 
 Import it in your Dart file:
 ```dart
-import 'package:animated_loaders/animated_loaders.dart';
+import 'package:bouncy_dots_loader/bouncy_dots_loader.dart';
 ```
 
 Usage
@@ -52,7 +52,7 @@ Usage
 🔵 Example: Bouncing Dots Loader
 
 ```dart
-AnimatedLoader(
+BouncingDotsLoader(
 type: AnimatedLoaderType.bouncingDots,
 size: 60,
 color: Colors.blue,
@@ -62,7 +62,7 @@ color: Colors.blue,
 🌊 Wave Dots
 ---
 ```dart
-AnimatedLoader(
+BouncingDotsLoader(
   type: AnimatedLoaderType.waveDots,
   size: 50,
   color: Colors.green,
@@ -72,7 +72,7 @@ AnimatedLoader(
 ---
 
 ```dart
-AnimatedLoader(
+BouncingDotsLoader(
 type: AnimatedLoaderType.scalingDots,
 size: 48,
 color: Colors.orange,
@@ -82,7 +82,7 @@ color: Colors.orange,
 ---
 
 ```dart
-AnimatedLoader(
+BouncingDotsLoader(
 type: AnimatedLoaderType.fadingDots,
 size: 42,
 color: Colors.purple,
@@ -91,7 +91,7 @@ color: Colors.purple,
 👁 With visibility animation (optional)
 --- 
 ```dart
-AnimatedLoader(
+BouncingDotsLoader(
 type: AnimatedLoaderType.bouncingDots,
 visible: false,   // Smooth fade-out effect
 );
