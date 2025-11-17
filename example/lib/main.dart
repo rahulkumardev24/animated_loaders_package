@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:animated_loaders/animated_loaders.dart';
+import 'package:animated_loaders/bouncy_dots_loader.dart';
 
 void main() {
   runApp(const AnimatedLoadersDemoApp());
@@ -57,7 +57,7 @@ class _LoaderHomePageState extends State<LoaderHomePage> {
 
           // Selected loader preview
           Center(
-            child: AnimatedLoader(type: _type, size: 60, color: Colors.blue),
+            child: BouncyDotsLoader(type: _type, size: 60, color: Colors.blue),
           ),
 
           const SizedBox(height: 24),

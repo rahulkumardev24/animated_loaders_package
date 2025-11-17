@@ -1,5 +1,3 @@
-library animated_loaders;
-
 import 'dart:math';
 import 'package:flutter/material.dart';
 
@@ -13,13 +11,13 @@ enum AnimatedLoaderType {
 }
 
 /// Main wrapper widget to choose a loader style.
-class AnimatedLoader extends StatelessWidget {
+class BouncyDotsLoader extends StatelessWidget {
   final AnimatedLoaderType type;
   final double size;
   final Color color;
   final Duration duration;
 
-  const AnimatedLoader({
+  const BouncyDotsLoader({
     super.key,
     this.type = AnimatedLoaderType.bouncingDots,
     this.size = 40,
