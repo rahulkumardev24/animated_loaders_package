@@ -1,7 +1,9 @@
 name: animated_loaders
 description: "A new Flutter project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/rahulkumardev24/animated_loaders_package
+repository: https://github.com/rahulkumardev24/animated_loaders_package
+issue_tracker: https://github.com/rahulkumardev24/animated_loaders_package/issues
 
 environment:
   sdk: ^3.9.2
