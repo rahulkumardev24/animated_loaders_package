@@ -29,7 +29,8 @@ This package provides modern, minimal and user-friendly loaders ideal for all ty
 - ✔ Supports Android, iOS, Web, Desktop
 - ✔ Includes visibility controls (fade-in & fade-out)
 
-> *(You may add GIFs or screenshots in this section.)*
+> *![Animated Loaders Demo](https://github.com/rahulkumardev24/animated_loaders_package/blob/main/examplepackage-ezgif.com-video-to-gif-converter.gif)
+*
 
 ---
 
